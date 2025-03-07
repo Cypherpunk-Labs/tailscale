@@ -1,4 +1,4 @@
-# never use :latest. It will only cause you pain.
+#!/bin/bash
 FROM tailscale/tailscale:stable
 
 ADD ./tailscale.sh /tailscale.sh
