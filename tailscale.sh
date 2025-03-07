@@ -1,3 +1,4 @@
+#!/bin/bash
 function up() { 
     until tailscale up --authkey=${TAILSCALE_AUTHKEY} ${TAILSCALE_UP_ARGS}
     do
